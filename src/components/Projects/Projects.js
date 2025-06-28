@@ -7,6 +7,7 @@ import php from "../../Assets/Projects/php-proj.jpg";
 import snack from "../../Assets/snack.png";
 import movieimg from "../../Assets/Projects/movieimg.jpg";
 import AIimg from "../../Assets/Projects/AI-img.png";
+import deepseek from "../../Assets/Projects/Images/deepseek.jpg";
 import Flutterimg from "../../Assets/Projects/Flutter-img.png";
 
 function Projects() {
@@ -23,17 +24,17 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={php}
+              imgPath={deepseek}
               isBlog={false}
-              title="Uni Grade Controller"
-              description="PHP & MySQL Development: Successfully designed and implemented several web
-                            applications using PHP and MySQL, demonstrating proficiency in backend development,
-                            database management, and ensuring robust, secure, and scalable solutions"
-              ghLink="https://github.com/Ahmad-Hteit/Php-MYSQL-Schedule-System"
-              demoLink="https://vimeo.com/1077063812/dd1490e83e?share=copy"
+              title="DeepSeek Chatbot"
+              description="I built a full-stack AI chat application using Next.js and React,
+               integrated with DeepSeek’s API to handle AI responses, and managed user authentication 
+               using Clerk, Deployment on Vercel. The app supports creating chats, sending prompts, and receiving assistant 
+               replies with a smooth UI"
+              ghLink="https://github.com/Ahmad-Hteit/deepseek"
+              demoLink="https://deepseek-taupe-one.vercel.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bankimage}
@@ -43,6 +44,18 @@ function Projects() {
                           Includes informative sections such as About Us, Services, Contact, and Our Team to enhance user experience and functionality."
               ghLink="https://github.com/Ahmad-Hteit/Bank-Website"
               demoLink="https://vimeo.com/1077063908/a23ca9763a?share=copy"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={php}
+              isBlog={false}
+              title="Uni Grade Controller"
+              description="PHP & MySQL Development: Successfully designed and implemented several web
+                            applications using PHP and MySQL, demonstrating proficiency in backend development,
+                            database management, and ensuring robust, secure, and scalable solutions"
+              ghLink="https://github.com/Ahmad-Hteit/Php-MYSQL-Schedule-System"
+              demoLink="https://vimeo.com/1077063812/dd1490e83e?share=copy"
             />
           </Col>
           <Col md={4} className="project-card">

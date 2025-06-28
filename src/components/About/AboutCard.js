@@ -8,28 +8,50 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            I'm a{" "}
+            I'm a <span className="purple">passionate software developer</span>{" "}
+            with a strong focus on backend systems, cloud infrastructure, and{" "}
+            <span className="purple">AI/ML</span>. From building full-stack
+            applications to ensuring software reliability through{" "}
+            <span className="purple">QA automation</span>, I enjoy solving
+            real-world problems through clean and scalable code.
+          </p>
+
+          <p style={{ textAlign: "justify" }}>
+            I’m certified as an{" "}
+            <span className="purple">AWS SysOps Administrator</span> and{" "}
+            <span className="purple">AI Practitioner</span>, with hands-on
+            experience in services like{" "}
             <span className="purple">
-              passionate and detail-driven software developer
-            </span>{" "}
-            with hands-on experience in building scalable systems and ensuring
-            top-notch software quality. I’m especially focused on:
+              EC2, S3, IAM, CloudFront, and SageMaker
+            </span>
+            . I work with tech stacks like{" "}
+            <span className="purple">
+              React, Next.js, Spring Boot, Node.js, ASP.NET Core, Flutter
+            </span>
+            , and databases like <span className="purple">MySQL, MongoDB</span>,
+            and Firebase.
+          </p>
+
+          <p style={{ textAlign: "justify" }}>
+            I believe in continuous growth and writing code with purpose. My
+            goal is to build impactful products and one day lead my own
+            innovative tech company.
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Backend development and architecture
+              <ImPointRight /> Backend development & API design
             </li>
             <li className="about-activity">
               <ImPointRight />{" "}
-              <span className="purple">AI & machine learning applications</span>
+              <span className="purple">AI & ML-based applications</span>
             </li>
             <li className="about-activity">
-              <ImPointRight /> Cloud technologies (AWS, etc.)
+              <ImPointRight /> AWS Cloud Infrastructure & DevOps
             </li>
             <li className="about-activity">
-              <ImPointRight /> Software testing &{" "}
-              <span className="purple">QA best practices</span>
+              <ImPointRight /> Software Testing &{" "}
+              <span className="purple">QA automation</span>
             </li>
           </ul>
 

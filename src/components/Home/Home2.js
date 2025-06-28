@@ -1,10 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub, AiFillFacebook, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import Pic1 from "../../../src/Pic1.png";
 import Pic2 from "../../Assets/Pic2.png";
 
 function Home2() {
@@ -18,32 +16,30 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I'm an enthusiastic and detail-oriented{" "}
-              <b className="purple">Software Developer</b> with hands-on
-              experience in
+              <b className="purple">Software Developer</b> and{" "}
+              <b className="purple">Quality Assurance Engineer</b> with a strong
+              foundation in{" "}
               <b className="purple">
-                {" "}
-                cloud computing, AI/ML, and software quality assurance
+                backend development, cloud computing, and AI/ML
               </b>
-              .
+              . I’m passionate about solving real-world problems through clean,
+              scalable code and delivering high-quality software.
               <br />
               <br />
-              I'm also certified as an{" "}
+              I’ve built and tested full-stack applications using modern
+              technologies. I’m certified as an{" "}
               <b className="purple">AWS SysOps Administrator</b> and{" "}
-              <b className="purple">AI Practitioner</b>, skilled in services
-              like{" "}
-              <b className="purple">
-                EC2, S3, EBS, CloudFront, CodePipeline, SageMaker
-              </b>
-              , and other AI modules.
+              <b className="purple">AI Practitioner</b>, with hands-on
+              experience in services like{" "}
+              <b className="purple">EC2, S3, IAM, CloudFront, CodePipeline,</b>{" "}
+              and <b className="purple">SageMaker</b>.
               <br />
               <br />
-              My key areas of interest include developing innovative &nbsp;
-              <b className="purple">web technologies and products</b>, ensuring
-              high-quality software through thorough testing, and exploring
-              cutting-edge applications of{" "}
-              <b className="purple">artificial intelligence</b>.
+              I'm driven by continuous learning and a long-term vision to build
+              innovative, impactful technology products.
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               {/* {myImg} */}
@@ -68,7 +64,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.facebook.com/ahmad.hteit.56"
                   target="_blank"
@@ -77,7 +73,7 @@ function Home2() {
                 >
                   <AiFillFacebook />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/ahmad-hoteit-1a57a9318/"

@@ -741,3 +741,36 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+ .tech-icons {
+  position: relative;
+  font-size: 3em;
+  margin: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tech-icons:hover {
+  transform: scale(1.2);
+}
+
+/* Optional tooltip styling using :after */
+.tech-icons::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #6c63ff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  opacity: 0;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.tech-icons:hover::after {
+  opacity: 1;
+}
