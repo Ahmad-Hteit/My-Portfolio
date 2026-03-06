@@ -15,28 +15,31 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm an enthusiastic and detail-oriented{" "}
-              <b className="purple">Software Developer</b> and{" "}
-              <b className="purple">Quality Assurance Engineer</b> with a strong
-              foundation in{" "}
-              <b className="purple">
-                backend development, cloud computing, and AI/ML
-              </b>
-              . I’m passionate about solving real-world problems through clean,
-              scalable code and delivering high-quality software.
+              I’m <b className="purple">Ahmad Hteit</b>, a{" "}
+              <b className="purple">Quality Assurance Engineer</b> with hands-on experience in{" "}
+              <b className="purple">manual testing</b>,{" "}
+              <b className="purple">automation testing </b>, and{" "}
+              <b className="purple">performance/load testing</b>.
               <br />
               <br />
-              I’ve built and tested full-stack applications using modern
-              technologies. I’m certified as an{" "}
-              <b className="purple">AWS SysOps Administrator</b> and{" "}
-              <b className="purple">AI Practitioner</b>, with hands-on
-              experience in services like{" "}
-              <b className="purple">EC2, S3, IAM, CloudFront, CodePipeline,</b>{" "}
-              and <b className="purple">SageMaker</b>.
+              I focus on building reliable test strategies, writing maintainable test suites,
+              validating APIs, and ensuring product quality through strong regression coverage
+              and clear bug reporting.
               <br />
               <br />
-              I'm driven by continuous learning and a long-term vision to build
-              innovative, impactful technology products.
+              Beyond QA, I enjoy building AI-powered applications. I created{" "}
+              <b className="purple">StoryPilot</b> using{" "}
+              <b className="purple">Azure AI</b>, and built LLM chat apps including a{" "}
+              <b className="purple">DeepSeek-style chatbot</b> and{" "}
+              <b className="purple">GPT-based assistants</b>.
+              <br />
+              <br />
+              I also have a solid software engineering background with{" "}
+              <b className="purple">backend development</b> and{" "}
+              <b className="purple">cloud fundamentals (AWS)</b>, and I care deeply about{" "}
+              <b className="purple">clean code</b>,{" "}
+              <b className="purple">scalability</b>, and{" "}
+              <b className="purple">shipping high-quality software</b>.
             </p>
           </Col>
 

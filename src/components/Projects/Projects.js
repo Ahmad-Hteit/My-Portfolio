@@ -9,6 +9,9 @@ import movieimg from "../../Assets/Projects/movieimg.jpg";
 import AIimg from "../../Assets/Projects/AI-img.png";
 import deepseek from "../../Assets/Projects/Images/deepseek.jpg";
 import Flutterimg from "../../Assets/Projects/Flutter-img.png";
+import playwrightImg from "../../Assets/Projects/Images/playwright.png";
+import k6Img from "../../Assets/Projects/Images/k6.png";
+import storypilotImg from "../../Assets/Projects/Images/storypilot.png";
 
 function Projects() {
   return (
@@ -22,6 +25,36 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={playwrightImg}
+              isBlog={false}
+              title="Playwright Test Automation Framework"
+              description="Designed and implemented an end-to-end test automation framework using Playwright. Automated critical user workflows, built reusable test utilities, and structured regression suites for maintainability and scalability. Focused on stable selectors, page-object patterns, and clear reporting to support CI-friendly execution and fast feedback on releases."
+              ghLink="https://github.com/Ahmad-Hteit/playwright-automation"
+              demoLink=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+          <ProjectCard
+            imgPath={k6Img}
+            isBlog={false}
+            title="Performance & Load Testing (k6)"
+            description="Created load and performance test scenarios using k6 to evaluate system stability under concurrent traffic. Simulated real user behavior, measured response times and throughput, and identified bottlenecks using threshold-based KPIs. Produced actionable performance insights to improve scalability and reliability."
+            ghLink="https://github.com/Ahmad-Hteit/k6-performance-testing"
+            demoLink=""
+          />
+        </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={storypilotImg}
+              isBlog={false}
+              title="StoryPilot (Azure AI)"
+              description="Built StoryPilot, an AI-powered storytelling application using Azure AI services and LLM integrations. Users generate structured, context-aware stories from custom prompts with smooth UX and reliable prompt handling. This project highlights real-world AI integration, scalable architecture, and cloud-based deployment practices."
+              ghLink="https://github.com/Ahmad-Hteit/storypilot"
+              demoLink=""
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={deepseek}

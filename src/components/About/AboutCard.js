@@ -8,50 +8,57 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            I'm a <span className="purple">passionate software developer</span>{" "}
-            with a strong focus on backend systems, cloud infrastructure, and{" "}
-            <span className="purple">AI/ML</span>. From building full-stack
-            applications to ensuring software reliability through{" "}
-            <span className="purple">QA automation</span>, I enjoy solving
-            real-world problems through clean and scalable code.
+            I’m <span className="purple">Ahmad Hteit</span>, a{" "}
+            <span className="purple">Quality Assurance Engineer</span> with
+            hands-on experience in{" "}
+            <span className="purple">manual testing</span>,{" "}
+            <span className="purple">automation testing (Playwright)</span>, and{" "}
+            <span className="purple">performance/load testing</span>. I enjoy
+            breaking products (professionally 😄), finding edge cases, and
+            building reliable test coverage that helps teams ship with confidence.
           </p>
 
           <p style={{ textAlign: "justify" }}>
-            I’m certified as an{" "}
-            <span className="purple">AWS SysOps Administrator</span> and{" "}
-            <span className="purple">AI Practitioner</span>, with hands-on
-            experience in services like{" "}
+            I’ve worked on{" "}
             <span className="purple">
-              EC2, S3, IAM, CloudFront, and SageMaker
-            </span>
-            . I work with tech stacks like{" "}
-            <span className="purple">
-              React, Next.js, Spring Boot, Node.js, ASP.NET Core, Flutter
-            </span>
-            , and databases like <span className="purple">MySQL, MongoDB</span>,
-            and Firebase.
+              regression testing, API testing, test planning, and bug reporting
+            </span>{" "}
+            while collaborating closely with developers and stakeholders to
+            ensure quality across releases. I care about writing{" "}
+            <span className="purple">maintainable automation</span>, improving
+            test stability, and keeping feedback loops fast.
           </p>
 
           <p style={{ textAlign: "justify" }}>
-            I believe in continuous growth and writing code with purpose. My
-            goal is to build impactful products and one day lead my own
-            innovative tech company.
+            Beyond QA, I build AI-powered applications. I created{" "}
+            <span className="purple">StoryPilot</span> using{" "}
+            <span className="purple">Azure AI</span>, and built LLM chat apps
+            including a <span className="purple">DeepSeek-style chatbot</span>{" "}
+            and <span className="purple">GPT-based assistants</span>. I also have
+            solid fundamentals in{" "}
+            <span className="purple">backend development</span> and{" "}
+            <span className="purple">cloud (AWS)</span>.
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Backend development & API design
+              <ImPointRight /> Test Strategy, Test Planning & Regression
             </li>
             <li className="about-activity">
-              <ImPointRight />{" "}
-              <span className="purple">AI & ML-based applications</span>
+              <ImPointRight /> Automation Testing{" "}
+              <span className="purple">(Playwright)</span> + CI-friendly suites
             </li>
             <li className="about-activity">
-              <ImPointRight /> AWS Cloud Infrastructure & DevOps
+              <ImPointRight /> API Testing{" "}
+              <span className="purple">(Postman / REST)</span> & bug triage
             </li>
             <li className="about-activity">
-              <ImPointRight /> Software Testing &{" "}
-              <span className="purple">QA automation</span>
+              <ImPointRight /> Performance & Load Testing{" "}
+              <span className="purple">(k6 / JMeter)</span>
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> AI Apps{" "}
+              <span className="purple">(Azure + LLM integrations)</span>
             </li>
           </ul>
 

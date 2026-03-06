@@ -6,10 +6,11 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Quality Assurence",
-          "Software Developer",
-          "AWS AI Practitioner",
-          "AWS SysOps Adminstrator",
+          "Quality Assurance Engineer",
+          "Automation Testing",
+          "Performance & Load Testing",
+          "AI Apps (Azure + LLMs)",
+          "Backend & Cloud (AWS)",
         ],
         autoStart: true,
         loop: true,
